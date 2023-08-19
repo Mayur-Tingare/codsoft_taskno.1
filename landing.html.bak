@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="landingstyle.css">
+  <title>Your Computer Hardware Agency</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Computer Hardware Agency</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Computer Hardware Agency</h1>
+    <p>Your trusted source for high-quality computer hardware solutions.</p>
+    <a href="#" class="cta-button">Explore Products</a>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h2>Wide Range of Products</h2>
+      <p>We offer a diverse selection of computer hardware components.</p>
+    </div>
+    <div class="feature">
+      <h2>Expert Services</h2>
+      <p>Our team of experts provides top-notch technical assistance.</p>
+    </div>
+    <div class="feature">
+      <h2>Customer Satisfaction</h2>
+      <p>We prioritize customer satisfaction and deliver quality solutions.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Computer Hardware Agency. All rights reserved.</p>
+  </footer>
+</body>
+</html>

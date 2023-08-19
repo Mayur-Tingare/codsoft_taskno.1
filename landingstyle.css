@@ -1,0 +1,132 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center; /* Center the navigation */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Center the nav links */
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s; /* Add transition for color change */
+}
+
+.nav-links a:hover {
+  color: #00cc00; /* Change color on hover */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('your-hero-image.jpg');
+  background-size: cover;
+  background-color: #8a2be2; /* Violet background color */
+  color: #fff;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+/* ... (previous styles) */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem 0;
+}
+
+
+/* ... (previous styles) */
+
+//* ... (previous styles) */
+
+.feature {
+  position: relative;
+  background-color: #ddd;
+  transition: background-color 0.3s;
+}
+
+.feature h2 {
+  margin-bottom: 1rem; /* Add some spacing below the heading */
+  text-align: center;
+}
+
+.feature p {
+  text-align: center;
+}
+
+.feature:hover {
+  background-color: #00cc00;
+}
+
+/* Neon light animation */
+@keyframes neon {
+  0%, 100% {
+    text-shadow: 0 0 10px #00cc00,
+                 0 0 20px #00cc00,
+                 0 0 30px #00cc00;
+  }
+  50% {
+    text-shadow: none;
+  }
+}
+
+.feature:hover h2,
+.feature:hover p {
+  animation: neon 1.5s infinite alternate;
+}
+
+/* ... (rest of the styles) */
+
+
+/* ... (rest of the styles) */
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Add more styles as needed */
